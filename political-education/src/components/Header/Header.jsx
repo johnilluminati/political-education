@@ -12,7 +12,6 @@ const Header = () => {
     <header className="bg-white border-b border-gray-200">
       <Navbar headerLinks={headerLinks} />
     </header>
-
   )
 }
 
