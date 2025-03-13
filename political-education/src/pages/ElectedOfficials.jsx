@@ -1,6 +1,12 @@
+import PersonHeader from "../components/Person/PersonHeader";
+import PersonMain from "../components/Person/PersonMain";
+
 const ElectedOfficials = () => {
   return (
-    <div>ElectedOfficials</div>
+    <>
+      <PersonHeader />
+      <PersonMain />
+    </>
   )
 }
 
