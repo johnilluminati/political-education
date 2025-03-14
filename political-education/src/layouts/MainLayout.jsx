@@ -5,7 +5,7 @@ const MainLayout = () => {
   return (
     <>
       <Header />
-      <div className="container mx-auto mt-8">
+      <div className="container mx-auto mt-8 dark:text-white">
         <Outlet />
       </div>
     </>

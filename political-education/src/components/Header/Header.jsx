@@ -9,7 +9,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white border-b border-gray-200">
+    <header className="bg-white dark:bg-nav-bg-color border-b border-gray-200">
       <Navbar headerLinks={headerLinks} />
     </header>
   )
