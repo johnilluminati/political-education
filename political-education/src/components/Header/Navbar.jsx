@@ -17,7 +17,7 @@ const Navbar = ({ headerLinks }) => {
             {headerLinks.map((item, key) => {
               return (
                 <li key={key}>
-                  <a className="text-gray-500 dark:text-white transition hover:text-gray-500/75" href={item.routerLink}> {item.text} </a>
+                  <a className="text-gray-500 dark:text-white transition hover:text-gray-500/75 dark:hover:text-gray-300" href={item.routerLink}> {item.text} </a>
                 </li>
               )
             })}
