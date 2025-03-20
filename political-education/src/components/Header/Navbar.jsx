@@ -5,7 +5,7 @@ import DarkModeToggle from "./DarkModeToggle";
 
 const Navbar = ({ headerLinks }) => {
   return (
-    <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+    <div className="container mx-auto flex h-16 items-center gap-8">
       <Link to="/" className="flex items-center justify-center text-blue-500 dark:text-white">
         <FaMagnifyingGlass className="text-2xl" />
         <span className="hidden md:block text-2xl font-semibold ml-2">Stupid Website</span>
